@@ -1,2 +1,2 @@
-# ryboh1.github.io
-website
+# my-website
+My Blogging Website

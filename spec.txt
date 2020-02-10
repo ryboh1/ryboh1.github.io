@@ -1,0 +1,13 @@
+spec:
+
+        CREATE A GITHUB THEME
+
+
+    1.4 pages
+    2. ul and ol, table, img
+    3. style sheet
+    4. 5 different css properties
+    5. must use css for #id once and .class once
+    6. use bootstrap grid system  and styling
+    7. use one scss varibale, nesting and inheritence
+    8. include a readme.md
