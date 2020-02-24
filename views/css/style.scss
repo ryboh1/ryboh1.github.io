@@ -1,0 +1,35 @@
+@use "nav";
+@use "main";
+@use "aside";
+@use "footer";
+@use "about";
+@use "portfolio";
+@use "archive";
+
+/*general*/
+
+$backgroundColour: rgba(107,107,107,0.22);
+$backgroundColourSecondary: white;
+
+*{
+    font-family: "Sriracha", cursive;
+}
+
+body{
+    background-color: $backgroundColour;
+}
+
+@font-face{
+    font-family: "Merriweather";
+    src:url("../css/fonts/Merriweather-LightItalic.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Sriracha";
+    src:url("../css/fonts/Sriracha-Regular.ttf") format("truetype");
+}
+
+.content{
+    background-color:$backgroundColourSecondary;
+    margin:20px 0px;
+}

@@ -1,0 +1,23 @@
+$theBackgroundColour: #3D3B3B;
+$aBlue:#8fc1e3;
+
+.archive-content{
+    min-height:100vh;
+
+    main{
+        margin-top:100px;
+
+        ul{
+            margin:auto;
+            border-radius:10%;
+            padding:50px;
+            font-size:20px;
+            background-color:$theBackgroundColour;
+            color:$aBlue;
+
+            a{
+                color:$aBlue;
+            }
+        }
+    }
+}

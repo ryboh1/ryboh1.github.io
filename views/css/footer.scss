@@ -1,0 +1,30 @@
+$theBackgroundColour: #3D3B3B;
+$aBlue:#8fc1e3;
+
+footer{
+    background-color: $theBackgroundColour;
+    color:white;
+
+    .row{
+        padding:10px;
+    }
+
+    h4{
+        margin:auto;
+        display:block;
+    }
+
+    .contact-icons{
+        i{
+            float:right;
+            color:$aBlue;
+            margin-right:10px;
+        }
+    }
+}
+
+@media (max-width:654px){
+    h4{
+        font-size:10px;
+    }
+}

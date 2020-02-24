@@ -1,0 +1,49 @@
+$aBlue:#8fc1e3;
+$aGreen: #689864;
+$aWhite: #f7f9f8;
+/*Nav*/
+nav{
+    background-color: $aGreen;
+    padding:25px;
+    
+    h1{
+        font-weight: bold;
+        font-family: "Merriweather";
+        color: $aWhite;
+    }
+    ul{
+        position: relative;
+        top:30px;
+
+        li{
+            list-style: none;
+            font-size: 20px;
+            display:inline-block;
+            margin:5px;
+
+                .active{
+                    text-decoration: none;
+                    border-bottom: 3px solid $aBlue;
+                }
+
+                a{
+                    color:$aWhite;
+                }
+
+                a:hover{
+                    color:$aWhite;
+                    text-decoration: none;
+                    border-bottom: 3px solid $aBlue;
+                }
+        }
+    }
+}
+
+/* nav media query*/
+@media (max-width:992px){
+    nav{
+        h1{
+            text-align: center;
+        }
+    }
+}

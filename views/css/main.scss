@@ -1,0 +1,53 @@
+$background: white;
+$aBlue:#8fc1e3;
+$smallFont: 15px;
+
+/*main*/
+main{
+    background-color: $background;
+    margin: 20px 0px;
+
+    .blog-post{
+        background-color: $aBlue;
+        border-radius: 40px;
+        margin:10px;
+        padding:10px;
+        
+        #image{
+            margin:auto;
+
+            img{
+                max-width: 300px;
+                
+            }
+        }
+        #text{
+            font-size: $smallFont;
+            color:$background;
+
+            h3{
+                color:black;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px){
+    main{
+        .blog-post{
+            #image{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width:420px){
+    main{
+        .blog-post{
+            img{
+                width:150px;
+            }
+        }
+    }
+}
